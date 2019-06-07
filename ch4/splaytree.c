@@ -190,5 +190,6 @@ void splay(splay_ptr current)
       single_rotate(current);
     else
       double_rotate(current);
+    father=current->parent;
   }
 }
